@@ -147,6 +147,7 @@ main {
     align-items: center;
     gap: 32px;
     margin: 40px 0 69px 0;
+    padding: 0 100px;
 
     h2 {
       font-size: 40px;
