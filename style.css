@@ -138,4 +138,155 @@ main {
       }
     }
   }
+
+  /* section third */
+  section.third {
+    height: 1096px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 40px 0 69px 0;
+
+    h2 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #3a3a3a;
+    }
+    div.card_container {
+      display: flex;
+      flex-direction: column;
+
+      div.small_card_one {
+        margin-bottom: 32px;
+        div.dark {
+          background-image: url(./images/background_leviosa.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          div.color {
+            background-color: #3a3a3a;
+            width: 285px;
+            height: 446px;
+            opacity: 72%;
+          }
+          div.text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 285px;
+            height: 446px;
+            gap: 24px;
+            button.add {
+              width: 202px;
+              height: 48px;
+              background-color: white;
+              color: #b88e2f;
+              font-size: 16px;
+              font-weight: 600;
+              border: none;
+            }
+            div.text_svgs {
+              display: flex;
+              align-items: center;
+              gap: 20px;
+              span {
+                display: inline-block;
+                color: white;
+                font-size: 16px;
+                font-weight: 600;
+              }
+            }
+            button.add:hover {
+              background-color: rgb(0, 0, 0);
+              color: white;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      div.small_card_one,
+      div.small_card_two {
+        display: flex;
+        gap: 32px;
+      }
+      div.small_card {
+        width: 285px;
+        height: 446px;
+        background-color: #f4f5f7;
+        div.small_text {
+          padding: 16px;
+        }
+        h3 {
+          font-size: 24px;
+          font-weight: 600;
+          color: #3a3a3a;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          color: #898989;
+          margin: 8px 0;
+        }
+        div.spans {
+          display: flex;
+          align-items: center;
+        }
+        span {
+          font-size: 20px;
+          font-weight: 600;
+          color: #3a3a3a;
+        }
+        span.old {
+          font-size: 16px;
+          font-weight: 400;
+          color: #b0b0b0;
+          text-decoration: line-through;
+          display: inline-block;
+          margin-left: 15px;
+        }
+      }
+      div.with_circle {
+        position: relative;
+        div.new,
+        div.sale {
+          border-radius: 50%;
+          width: 48px;
+          height: 48px;
+          position: absolute;
+          top: 24px;
+          right: 24px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        div.new {
+          background-color: #2ec1ac;
+        }
+        div.sale {
+          background-color: #e97171;
+        }
+        span.circle_span {
+          display: inline-block;
+          color: white;
+          font-size: 16px;
+          font-weight: 500;
+        }
+      }
+    }
+    button.show_more {
+      width: 245px;
+      height: 48px;
+      border: 1px solid #b88e2f;
+      background-color: transparent;
+      color: #b88e2f;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    button.show_more:hover {
+      background-color: #b88e2f;
+      color: white;
+    }
+  }
 }
