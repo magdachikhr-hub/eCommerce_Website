@@ -98,4 +98,44 @@ main {
       }
     }
   }
+  /* section second */
+  section.second {
+    height: 685px;
+    margin: 57px 0 56px 0;
+    width: auto;
+    padding: 0 126px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div.range {
+      text-align: center;
+      h3 {
+        color: #333333;
+        font-size: 32px;
+        font-weight: 700;
+      }
+      p {
+        color: #666666;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 63px;
+      }
+    }
+    div.container {
+      display: flex;
+
+      gap: 20px;
+      div.cards {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        span {
+          font-size: 24px;
+          font-weight: 600;
+          color: #333333;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
 }
