@@ -290,4 +290,107 @@ main {
       color: white;
     }
   }
+
+  /* section fourth */
+  section.fourth {
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    background-color: #fcf8f3;
+    padding: 44px 0 44px 100px;
+    margin-bottom: 67px;
+    div.rooms {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 42px;
+      h3 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #3a3a3a;
+        width: 422px;
+      }
+
+      p {
+        color: #616161;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 150%;
+        margin-top: 7px;
+        margin-bottom: 25px;
+        width: 368px;
+      }
+      button.explore {
+        width: 176px;
+        height: 48px;
+        background-color: #b88e2f;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+      }
+      button.explore:hover {
+        cursor: pointer;
+        background-color: #b69548;
+      }
+    }
+    div.inner_peace {
+      width: 404px;
+      height: 582px;
+      background-image: url(./images/girl_bird.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      position: relative;
+      div.bed_room {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 24px;
+        left: 24px;
+        width: 217px;
+        height: 130px;
+        backdrop-filter: blur(3px);
+        background: #ffffffb8;
+        p {
+          color: #616161;
+          font-size: 16px;
+          font-weight: 500;
+        }
+        h3 {
+          color: #3a3a3a;
+          font-size: 28px;
+          font-weight: 600;
+        }
+      }
+      div.right_svg {
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        background-color: #b88e2f;
+        right: 115px;
+        bottom: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    div.contain {
+      margin-left: 24px;
+      div.scroll_svg {
+        display: flex;
+        gap: 24px;
+        position: relative;
+        margin-bottom: 40px;
+
+        div.white_svg {
+          position: absolute;
+          bottom: 158px;
+          left: 345px;
+        }
+      }
+    }
+  }
 }
