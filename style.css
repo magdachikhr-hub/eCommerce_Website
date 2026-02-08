@@ -398,8 +398,8 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 50px;
-    height: 780px;
+    height: 810px;
+    margin-bottom: 60px;
     div.text_for_fifth {
       p {
         font-size: 20px;
@@ -413,5 +413,106 @@ main {
         margin-top: 8px;
       }
     }
+    img.diff_imgs {
+      height: 721px;
+      width: auto;
+    }
+  }
+}
+
+/* footer */
+footer {
+  height: 505px;
+  border-top: 1px solid #0000002b;
+  padding: 48px 100px 0;
+  margin-bottom: 38px;
+  div.container {
+    display: flex;
+    justify-content: center;
+    height: 408px;
+    div.funiro_footer {
+      margin-right: 136px;
+      h2 {
+        color: #000000;
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 50px;
+      }
+      div.span_container {
+        width: 285px;
+        span {
+          color: #9f9f9f;
+          font-size: 16px;
+          font-weight: 400;
+          display: inline-block;
+        }
+      }
+    }
+    nav {
+      height: 312px;
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 46px;
+        list-style: none;
+        li {
+          width: 140px;
+
+          a {
+            text-decoration: none;
+            color: #000000;
+          }
+        }
+      }
+    }
+    div.input {
+      form {
+        div.wrapper_input {
+          display: flex;
+          input {
+            width: 200px;
+            height: 24px;
+            border: none;
+            border-bottom: 1px solid #000000;
+          }
+          input::placeholder {
+            font-size: 14px;
+            font-weight: 400;
+            color: #9f9f9f;
+          }
+
+          button.subscribe {
+            margin-left: 10px;
+            width: 75px;
+            height: 24px;
+            border: none;
+            border-bottom: 1px solid #000000;
+            font-size: 14px;
+            color: #000000;
+            font-weight: 500;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9f9f9f;
+    margin-bottom: 55px;
+  }
+  nav.help {
+    margin-right: 72px;
+    margin-left: 5px;
+  }
+  div.rights_reverved {
+    height: 59px;
+    border-top: 1px solid #d9d9d9;
+    display: flex;
+    align-items: end;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
   }
 }
