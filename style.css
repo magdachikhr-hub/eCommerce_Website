@@ -393,4 +393,25 @@ main {
       }
     }
   }
+  /* section fifth */
+  section.fifth {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+    height: 780px;
+    div.text_for_fifth {
+      p {
+        font-size: 20px;
+        font-weight: 600;
+        color: #616161;
+      }
+      h3 {
+        color: #3a3a3a;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 8px;
+      }
+    }
+  }
 }
